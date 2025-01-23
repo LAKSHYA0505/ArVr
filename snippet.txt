@@ -1,0 +1,14 @@
+<model-viewer src="chair (1).glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" shadow-softness="1" environment-image="whipple_creek_regional_park_04_1k.hdr" skybox-image="whipple_creek_regional_park_04_1k.hdr" auto-rotate camera-orbit="-904.2deg 60.79deg 2.289m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-2" data-position="-0.015893729186951488m 0.9345167731487611m 0.2282559465032274m" data-normal="0.028951450806582023m 0.09798346699087565m -0.9947668338322515m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">hotspot</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
